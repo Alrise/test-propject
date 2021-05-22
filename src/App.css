@@ -1,0 +1,58 @@
+.header {
+  height: 80px;
+  background-color: royalblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  font-size: 30px;
+  color: darkblue;
+  font-style: initial;
+}
+
+.App{
+  width: 100%;
+  height: 100%;
+}
+  .main-wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box ;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:20px;
+  }
+  .item-blocks {
+    width: 200px;
+    height: 200px;
+    background-color: cornflowerblue;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .item-name {
+    font-size: 20px;
+    color: darkblue;
+  }
+.item-name2 {
+  font-size: 20px;
+  color: whitesmoke;
+}
+.search-field
+{
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  outline: none;
+  padding-right: 10px;
+  margin-left: 1550px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
